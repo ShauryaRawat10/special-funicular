@@ -1,0 +1,503 @@
+SALESFORCE
+
+1. What is Salesforce ?
+   It is super upgraded version of Google Sheets
+   Tables with rows and tuples and columns , with lot of automation
+   
+   Security -> Jim owns the opportunity , so he will be able to see the deal only
+   Multi Tenant Environment -> Share resources, customize your area
+   
+2. Trailhead
+   Fun way to learn Salesforce , handson questions, experience, badges
+   
+   Modules : Study Video Nuggets with quiz
+   Projects : Also includes handson, make projects within org 
+   Superbadges : real world scenarios
+   Trailmixes : learning paths (doc, videos, modules, projects)
+   Trailhead Quests : win prizes from Salesforce , free Vouchers
+   Trailhead Academy : Salesforce Instructor-led , Virtual , paid 
+   
+3. TrailBlazer Community 
+   Feed : Ask Questions, Answer questions 
+   Community Groups : Local Area community
+   
+4. Trailhead Playgrounds 
+   Developers Org , complete your projects, modules
+   
+   Create Playgrounds -> testing new functionalities, analytics tool 
+   
+5. Salesforce help 
+   Realease notes
+   general errors
+   entire documentation 
+   
+7. Salesforce Customer360 
+   One hub for your Customer
+   Single source of truth for Customer
+   '
+8. Sales Cloud:
+   This is bread and butter . Helps us in different deals that are going on 
+   Leads and opportunities
+   Sales Path 
+   Connecting leads and opportunities together
+   
+   eg : Tech company selling a Subsription based Product (BTB), how many will be 
+        needing that Product, how often use, renew
+		All different things about deals 
+		
+9. Service Cloud 
+   Connect with Customers in helping them deal with issues (Customer Service)
+   Opening cases, communicating on teams 
+   Objects (different group of data ) -> Cases (Indv. case), accounts (company you are working), contacts (person being serviced)
+   Phone, web chat, emails 
+   Email to Case -> Case can be bumped to private person to contact 
+   Some automations 
+   
+10. Marketing Cloud 
+    Helps us to know the beginning of customer journey and get them into the sales path  (Potential Customer)
+	Compaigns, Compaign Members, Leads 
+	Helps us establish first contact 
+	Trade Shows, Web Ads, Search leads, etc
+   
+11. Experiences (Community Cloud ) 
+    Creates a social platform for your customers to engage with brand 
+	Backend being Salesforce 
+	Ex : A Community Portal 
+   
+12. Non Profit Cloud 
+    Maybe Free or reduce cost to you/organizations
+	Non Profit Success Pack 
+	Helps you track doners, grants, allocating those funds, fundraisers, etc 
+	
+13. Commerce Cloud 
+    A way to create B2C transactions
+	Like Shopping for new shoes or pickle ball gear and having that connect back to salesforce
+	Similar to Shopify 
+	
+14. Einstein Analytics
+    Using AI to draw better and faster conclusions
+	Ex : You havent called your client in a week and a half. Your data shows that you have closed more deals after you call
+	     them once a week 
+    It will recommend that you call them and check in! 
+	
+15. Mulesoft
+    Tool of Customer 360
+	Integration Platform 
+	Mostly dealing with different systems and connexting APIs
+	So connecting the data from all different parts of your companies systems and bringing it back to you !
+	
+16. Health Cloud 
+    Typically More secure 
+    Changes the Data Model (Sales centric) to a patient centric model 
+    To keep up to date with appointments, follow ups, prescriptions, etc 
+	HIPA compliant, different compliances 
+	
+17. Sustainability (Net zero cloud)
+    Breaks down your companies environment friendliness
+	Shows you where you can improve
+	Helps you to take this back to clients and show responsibility
+	
+18. Clicks vs Code 
+    Shift away from code and make it easy for people on salesforce ecosystems to use this declarative tools
+	Two main automation tools  :
+	1. Flows : Simplify different business processes
+	2. Approval Processes : semant a record to a manager
+	
+	Secondary Automation tools 
+	1. Case Escalation Rules 
+	2. Auto Response Rules 
+	3. Assignment Rules : route records to right people 
+	
+19. Careers and Roles within Salesforce Platform 
+    
+    1. Salesforce Administrator : Day to Day updating of Salesforce Org  
+	2. Salesforce Architect : Big Visionaries, knowledge on Salesforce, planning out project
+	3. Salesforce Developer : Code heavy
+	4. Salesforce Marketer : Marketing cloud tool to bring new customer 
+	5. Salesforce Consultant : CPQ (quotes)
+	6. Salesforce Designer : Experience Designer 
+	
+	End User Role, Sales User 
+	
+20. Srum and Agile Development 
+    
+	Salesforce Development Practices :
+	
+	=> Srum Project Management 
+		1. Backlog of work 
+		2. Split into two week sprints to get user stories/ projects done 
+		3. If something new/urgent comes into play its priorities for the next sprint 
+		
+	=> Agile Project Management (fast paced)
+	    1. Things are moved between phases to do, doing, testing, deployed, etc 
+		2. People are in silos and work on the next prioritized item 
+		3. Items are prioritized as they come in to the backlog
+
+21. Salesforce Trust 
+    Way to see any issues in Salesforce as a whole
+	System Status (availability), Security, Complaince
+	
+	Status -> Incidents, maintenance 
+	Marketing cloud -> Instances (Status)
+	
+	
+NAVIGATION 
+	
+1. App Launcher
+   (Table icon -> top left icon )
+   Search apps, items (opportunities, different clouds, console, recycle bin (15 days to undelete) )
+
+2. App Exchange
+   3 Sections ( APPS, Components, Consultants)
+   
+   Apps : Clouds, consoles, docusign, different apps to install
+   Components : Add components including data, docusign 
+   Consultants : Ranking of Partners based on deals, certifications, 
+   
+3. Sandboxes 
+   Type of copy of your regular Salesforce Org (Production)
+   Staging Environment for Customizing and testing
+   
+   you copy over metadata in sandbox, (flow, automation, objects, fields, etc)
+   
+   1. Developer sandbox type       : No data from your org  , create your own data 
+   2. Developer Pro sandbox type   : No data from your org  , create your own data 
+   3. Partial copy sandbox type    : Some Data from Org 
+   4. Full sandbox type            : All metadata comes over 
+   
+4. Salesforce setup 
+   1. Salesforce home -> Setup (home)-> search for permission, etc 
+   2. Setup -> Object Manager -> Select Account, Opportunity, Compaign, etc -> Fields and Relationships
+   3. Setup -> Object Manager -> Schema Builder -> Select different objects to view data model 
+   
+5. Personal Settings 
+   Change Name, Password, Timezone, Email Signature (Sending mail out of salesforce)
+   
+6. Company Settings 
+   Setup -> Search (Company Setting) -> Click Company Information
+
+   Company Information -> Change TimeZone, Currency Settings, Enable multiple currency, languages
+                          User Licenses 
+						  feature license, Permission set licenses, user-based licenses, etc 
+						  Organization Business Hours -> No escalations
+						  Holidays -> Pause the automations 
+
+7. Adding Users 
+   Setup -> Search User -> Click User 
+    
+   Add New User -> name, unique name, email, username, language, timezone
+   Freeze User 
+   	
+8. Salesforce Global Search 
+   Searching different records within Opportunities, Leads, Accounts, Contacts, Compaigns
+   
+   Search John -> give the recommended result, his contact, leads 
+   
+   Wildcard Search -> John *
+   Operator based Search -> John AND hotel , John AND NOT Hotel
+   
+9. Lightning Page Customization
+   (Case )  Edit -> Edit Page -> It will direct to Lightening App Builder 
+   
+   Do changes -> save -> Assign as Org Default -> Mobile and Desktop ->  Activate  
+
+10. Lightening Knowledge Setup 
+    Part of Service Cloud of Salesforce
+	Knowledge base , blog post for team to fix problem and issues 
+	
+	Setting -> Service Setup -> Knowledge Setup -> Add authors  -> Data Category -> Add articles
+	
+	
+ARTICLES 
+
+1. Accounts 
+   Open any Account -> Lightening Page 
+   
+   Typically use for Non leads and Post Leads 
+   Used after the lead has been converted and is in the salesprocess/ deal making process 
+   It has all information about compny that we are working with 
+   Parent of Contact, Opportunity, Case, leads 
+   
+2. Contacts 
+   Mailing address, Phone, Activity, Chatter
+   
+3. Opportunities 
+   Deals with deal we are working on, contracts, deal making section of salesforce 
+   Amount, Expected Revenue, Closed Date, Stage, Main Competitors, Delivery Status, Profitability, Order Number
+   
+4. Cases 
+   Part Of Service Cloud 
+   Dealing with this broke, warrantly, fixing issues of Customers
+   
+   Priority, Case Reason, Origin, Type, Case Number 
+   
+5. Leads 
+   People who have interest in our product
+   
+   Lead will be converted to Account (Business Infor. ), Opportunity (Deals Info), Contact (Personal Info), etc 
+   Positive call with Salesrep 
+   
+6. How everything relates to Accounts 
+   Deleting Account will delete Contact and Opportunities also 
+   
+7. Objects 
+   Object is a group of similar data 
+   
+8. Standard vs Custom Objects 
+   Standard Objects  (OOTB ): Accounts, contacts, opportunities, leads 
+   Custom Objects (One that we create ) : Projects, recuitment, etc    -> Object Manager/Schema Builder 
+
+9. Relationships
+   Objects connected with comman fields
+   
+   1. Master Detail : When you delete the parent the child records also deleted
+   2. Lookup : More Independent, but can relate objects one to one 
+   
+10. What are fields?
+    Individual column (Data Type) on spreadsheet   
+    Data Type -> Text, Pick List, Number, Phone Number, etc
+	
+11. Creating Custom fields 
+    Setup -> Object Manager -> Opportunity -> Fields and Relationships -> New 
+	
+	1. Auto Number 
+	2. Formula 
+	3. Roll-Up Summary -> How many opportunities, aggregate data 
+	4. Lookup Relationship
+	5. External Lookup Relationship
+	6. Checkbox
+	7. Currency 
+	8. Date, Email, Phone, Picklist, Number, Text, Text Area, Text(Encrypted), Time, URL
+
+12. Picklist Fields 
+    
+13. Formula Fields (Uneditable by user)
+    Take information input to salesforce and calculate
+	
+    Formula Return type 
+    
+	eg : Price Per User = Amount / Number Of Users 
+
+14. Rollup Summary Fields 
+    Calculate other number within master detail relationship, roll up the calculation to parent 
+    
+	Eg : In Account Object show number of opportunities
+	Number Of opportunities -> Summarise Object (Opportunity) -> Select Roll-Up Type (count) -> Filter criteria 
+    
+15. Page Layouts 
+    Object Manager -> Opportunity -> Page Layouts 
+	
+	Add fields, collapse, reorder
+	
+16. Record Types 
+    Allows us to differentiate the view based on different record type page layout and profile setting 
+    
+	Object Manager -> Opportunities -> Record Types (Change based on req , low cap sales , high cap sales)
+	 Assign record types to Page layouts for different sales rep 
+	 
+	Record Type -> New (Record Type Name -> High Cap )
+	
+17. Record Types, Page Layouts, Profiles work Together
+    Opportunity -> Page Layouts -> Edit Assignment -> See Master and High Cap Record Types and Assign Layout for Profile
+    
+    Profile is -> Read Only, Contract Manager, Support Profile, Partner User, Solution Manager, etc 
+
+18. Salesforce Security 
+    Object Level Security vs Record Level Security
+	
+    Object Level Security Features 
+	1. Org Wide Defaults 
+	   Base-Line (Who can edit, delete, If private then everything ll be private)
+	2. Profiles 
+	   Open up to a group (Sales department having own Sales Profile )
+	3. Permission Sets 
+	   Open up to a single person or group (Manager having permission to delete)
+	4. Field Level Security 
+	   Enables ability to see and edit specific fields (editable, readonly, )
+	   
+	Record Level Security Features 
+    1. Role Hierarchy 
+       Sharing up to your managers and their managers (High cap manager see only high cap and not low cap)
+	2. Sharing Rules 
+       Share based on owners or criteria 
+    3. Manual Sharing 
+       Share based upon some clicks 
+    
+    Other Adjacent Features 
+    1. Public Groups 
+	2. Sharing Sets 
+
+19. Profiles 
+    Setup -> Profiles -> Custom: Sales Profile -> Edit 
+	
+	Custom App Settings 
+	Administrative Permissions 
+	General User Permission -> Activate Orders, Contracts 
+	Standard Object Permission -> create, read, edit, delete permission on different objects 
+	Knowledge Base Permission -> read 
+	Session Settings -> login after 2 hours
+	
+	Go to Users -> Janee Doe -> Role (Salesforce), User License (Custom: Sales Profile)
+	
+20. Permission Sets 
+    New -> Label : Sales Manager
+	
+	Object settings -> Accounts -> View All, Modify All enable
+   
+    Manage Assignment -> Add assign -> Jane Doe (Now have Sales Managers Permission Set)
+ 	
+   Permission Set Group -> for grouping	
+	
+21. Field Level Security 
+    More Granular (establishes where people will see and edit fields)	
+	
+	Permission Sets -> Sales Manager -> Object Setting -> Opportunities -> Give edit access 
+	
+22. Roles and Role Hierarchies
+    Roles -> Will have Role hierarchy
+	
+	eg : Marketing Manager will see Marketing Sales rep and not department sales rep.
+	     Marketing Manager is because above Sales rep 
+		 
+23. Sharing Rules (Owner based, criteria based )
+    Open up records to people who otherwise will not have access based on Role setting
+	
+	Sharing Settings -> Opportunity Sharing Rules 
+	
+	Label : Service Enables (Share record with Service)
+	
+	Rule Type : Based on criteria 
+	
+	Which record to be shared : Order Filled? equals True
+	
+	User to share with : Roles and subordinates -> SVP, Customer Service and support 
+	
+24. Public Groups 
+    Another Way to Share records , often within a team (not within role hierarchy, profiles, same team )	
+	
+	create group with all users -> 
+	
+25. Manual Sharing 
+    Share for random purpose 
+	
+	Opportunity UI -> Share -> User, Public Group, Role, Roles and Subordinates
+	Opportunity Access -> read/write
+	Share 
+
+26. Sharing Sets 	
+	Cross over between object level and record level security (Share to a Profile)
+	Dont use regular record level security settings 
+	
+
+REPORTS AND DASHBOARDS (15%)	
+
+1. Creating Reports 
+   Ligtening Page -> Reports -> New Report -> Select Report Type (Opportunities, Opportunities with Products, Accounts and Contacts )
+   
+   Tabular Report Format 
+   Summary Report 
+   Group Report -> Matrix report 
+   Joined reports 
+   
+   Add charts -> Line, bar, horizontal, donut
+   
+   Filters , Lock 
+
+2. Bucketing -> Fake field
+   Select Amount Column for Report -> Bucket this column 
+   
+   Cap 
+   <= 50000 -> Low  
+   > 50000  -> High 
+
+   Add Group -> It will group data based on low cap and high cap 
+   
+3. Reports and Dashboarding Limits
+   1. Report Builder can only have 20 rows 
+   2. Typically Report viewer can only show and chart 2000 rows 
+   3. You ll need to export data and visualize it in a different way 
+   4. Dashboards can only have up to 20 components 
+
+4. Dashboards 
+   New Dashboard -> Add Component -> Select Charts (Gauge, Donut, Line, metric)
+
+5. Dynamic Dashboards 
+   Gear Icon (Properties)-> Let the Dashboard viewer choose who they want to see dashboard as 
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+   
+   
+   
+   
+   
+   
+   
+   
